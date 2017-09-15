@@ -24,7 +24,6 @@ def rand():
     ans = 0
     number = random.randint(1,998)
     for thing in dict:
-        print thing
         if ans == 0:
             if number <= thing:
                 ans = thing
